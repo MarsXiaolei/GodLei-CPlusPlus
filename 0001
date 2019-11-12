@@ -1,0 +1,231 @@
+#include <iostream>
+#include <string>
+#include <typeinfo>
+ 
+using namespace std;
+ 
+void StringToint();         //String转int
+void StringTolong();        //String转long
+void StringToulong();       //String转unsigned long
+void StringTolonglong();    //String转long long
+void StringToulonglong();   //String转unsigned long long
+void StringTofloat();       //String转float
+void StringTodouble();      //String转double
+void StringTolongdouble();  //String转long double
+ 
+template <class T>
+void NumberToString(T value);
+ 
+int main()
+{
+    StringToint();
+    StringTolong();
+    StringToulong();
+    StringTolonglong();
+    StringToulonglong();
+    StringTofloat();
+    StringTodouble();
+    StringTolongdouble();
+ 
+    cout<<endl;
+ 
+    int a1 = 123;
+    NumberToString(a1);
+ 
+    unsigned a2 = 123;
+    NumberToString(a2);
+ 
+    long a3 = 123456;
+    NumberToString(a3);
+ 
+    unsigned long a4 = 123456;
+    NumberToString(a4);
+ 
+    long long a5 = 123456789;
+    NumberToString(a5);
+ 
+    unsigned long long a6 = 123456789;
+    NumberToString(a6);
+ 
+    float a7 = 123.456;
+    NumberToString(a7);
+ 
+    double a8 = 123.456789;
+    NumberToString(a8);
+ 
+    long double a9 = 123.4567890;
+    NumberToString(a9);
+ 
+    cin.get();
+    return 0;
+}
+ 
+/*******************************************************
+* @brief        String转int
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringToint()
+{
+    string str("123456");
+    int i = stoi(str, 0, 10);
+    cout << "String转int:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转long
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringTolong()
+{
+    string str("123456");
+    long i = stol(str, 0, 10);
+    cout << "String转long:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转ulong
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringToulong()
+{
+    string str("123456");
+    unsigned long i = stoul(str, 0, 10);
+    cout << "String转unsigned long:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转long long
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringTolonglong()
+{
+    string str("123456");
+    long long i = stoll(str, 0, 10);
+    cout << "String转long long:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转unsigned long long
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringToulonglong()
+{
+    string str("123456");
+    unsigned long long i = stoull(str, 0, 10);
+    cout << "String转unsigned long long:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转float
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringTofloat()
+{
+    string str("1234.56");
+    float i = stof(str, 0);
+    cout << "String转float:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转double
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringTodouble()
+{
+    string str("123.456");
+    double i = stod(str, 0);
+    cout << "String转double:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        String转long double
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         -
+*******************************************************/
+void StringTolongdouble()
+{
+    string str("123456.789123456");
+    long double i = stold(str);
+    cout << "String转long double:" << i << endl;
+}
+ 
+/*******************************************************
+* @brief        数字转String
+* @param        []
+* @return       void
+* @author       xiaolei
+* @data         2019-11-03
+* @note         int\unsigned\long\ulong\longlong\ulonglong\float\double\longdouble
+*******************************************************/
+template <class T>
+void NumberToString(T value)
+{
+    string str = to_string(value);
+    if (typeid(value) == typeid(int))
+    {
+        cout << "int转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(unsigned))
+    {
+        cout << "unsigned转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(long))
+    {
+        cout << "long转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(unsigned long))
+    {
+        cout << "unsigned long转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(long long))
+    {
+        cout << "long long转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(unsigned long long))
+    {
+        cout << "unsigned long long转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(float))
+    {
+        cout << "float转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(double))
+    {
+        cout << "double转String：" << str << endl;
+    }
+    else if (typeid(value) == typeid(long double))
+    {
+        cout << "long double转String：" << str << endl;
+    }
+}
