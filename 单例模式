@@ -1,0 +1,95 @@
+#include <iostream>
+
+using namespace std;
+
+class Singleton
+{
+public:
+	~Singleton() {};
+	static Singleton* getInstance()
+	{
+		if (instance==nullptr)
+		{
+			instance = new Singleton;
+		}
+		m_count++;
+		return instance;
+	}
+
+	int getCount()
+	{
+		return m_count;
+	}
+private:
+	Singleton()
+	{
+		instance = nullptr;
+		m_count = 0;
+		cout << "构造函数 singleton() 执行" << endl;
+	}
+
+	static Singleton* instance;
+	static int m_count;
+};
+
+Singleton* Singleton::instance = nullptr;
+int Singleton::m_count = 0;
+
+class Singleton2 
+{
+public:
+	~Singleton2() {};
+	static Singleton2* getInstance()
+	{
+		m_count++;
+		return instance;
+	}
+	int getCount()
+	{
+		return m_count;
+	}
+private:
+	Singleton2()
+	{
+		instance = nullptr;
+		m_count = 0;
+	}
+	static Singleton2* instance;
+	static int m_count;
+};
+
+Singleton2* Singleton2::instance = new Singleton2;
+int Singleton2::m_count = 0;
+
+int main()
+{
+	Singleton *singer = Singleton::getInstance();
+	cout << singer->getCount() << endl;
+	Singleton *singer2 = Singleton::getInstance();
+	cout << singer2->getCount() << endl;
+	if (singer==singer2)
+	{
+		cout << "二者是同一个实例" << endl;
+	}
+	else
+	{
+		cout << "二者不是同一个实例" << endl;
+	}
+
+	cout << "-----------以下是饿汉式-----------" << endl;
+	Singleton2 *singer3 = Singleton2::getInstance();
+	cout << singer3->getCount() << endl;
+	Singleton2* singer4 = Singleton2::getInstance();
+	cout << singer4->getCount() << endl;
+	if (singer3==singer4)
+	{
+		cout << "二者是同一个实例" << endl;
+	}
+	else
+	{
+		cout << "二者不是同一个实例" << endl;
+	}
+
+	cin.get();
+	return 0;
+}
