@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	double pi = 3.1415926;
+	int num1 = (int)pi;	
+	int num2 = pi;//隐式类型转换，从“double”转换到“int”，可能丢失数据
+
+	int num3 = static_cast<int>(pi);
+
+	cout << "num1:" << num1
+		<< "\nnum2:" << num2
+		<< "\nnum3:" << num3 << endl;
+	cin.get();
+	return 0;
+}
