@@ -1,0 +1,64 @@
+#include <iostream>
+
+using namespace std;
+
+class Animal
+{
+public:
+	Animal() {};
+	~Animal() {};
+	virtual void cry() = 0;
+};
+
+class Dog :public Animal
+{
+public:
+	Dog() {};
+	~Dog() {};
+	virtual void cry()
+	{
+		cout << "旺旺" << endl;
+	}
+	void doHome()
+	{
+		cout << "看家" << endl;
+	}
+};
+
+class Cat :public Animal
+{
+public:
+	Cat() {};
+	~Cat() {};
+	virtual void cry()
+	{
+		cout << "喵喵" << endl;
+	}
+	void doHome()
+	{
+		cout << "抓老鼠" << endl;
+	}
+};
+
+int main()
+{
+	Animal *base = nullptr;
+	base = new Cat();
+	base->cry();
+
+	Dog *dog = dynamic_cast<Dog*>(base);
+	if (dog!=nullptr)
+	{
+		dog->cry();
+		dog->doHome();
+	}
+
+	Cat *cat = dynamic_cast<Cat *>(base);
+	if (cat!=nullptr)
+	{
+		cat->cry();
+		cat->doHome();
+	}
+	cin.get();
+	return 0;
+}
