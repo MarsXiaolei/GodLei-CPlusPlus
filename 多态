@@ -1,0 +1,90 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Animal
+{
+public:
+	Animal() {};
+	~Animal() {};
+	void eat()
+	{
+		cout << "动物吃啥？" << endl;
+	}
+	//重载
+	void eat(string str)
+	{
+		cout << "动物吃:" <<str<< endl;
+	}
+	//重载
+	virtual void eat(string str, string str2)
+	{
+		cout << "动物吃:" << str << " 包括："<< str2<<endl;
+	}
+
+	virtual void work()
+	{
+		cout << "动物的工作是啥？!" << endl;
+	}
+};
+
+class Dog :public Animal
+{
+public:
+	Dog() {};
+	~Dog() {};
+	//隐藏
+	void eat()
+	{
+		cout << "狗吃骨头！" << endl;
+	}
+	//重写
+	void work()
+	{
+		cout << "Dog's work is to watch  the house!" << endl;
+	}
+};
+
+class Cat :public Animal
+{
+public:
+	Cat() {};
+	~Cat() {};
+	//重写
+	virtual void work()
+	{
+		cout << "Cat's work is to catch mice!" << endl;
+	}
+};
+
+int main()
+{
+	Animal animal;
+	animal.eat();
+	animal.work();
+	cout << endl;
+
+	Dog dog;
+	dog.eat();
+	dog.Animal::eat();
+	dog.Animal::eat("肉");
+	dog.Animal::eat("草","狗尾巴草");
+	dog.work();
+	cout << endl;
+	
+	Animal *animal2 = nullptr;
+	animal2 = &dog;
+	animal2->eat();
+	animal2->eat("肉");
+	animal2->eat("肉","鸡胸肉");
+	animal2->work();
+	cout << endl;
+
+	Cat cat;
+	animal2 = &cat;
+	animal2->work();
+
+	cin.get();
+	return 0;
+}
