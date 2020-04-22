@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+class A
+{
+public:
+	A():x(10),y(20) {};
+	~A() {};
+	bool operator==(const A& a)
+	{
+		bool isEqual;
+		if (a.x==this->x&&a.y == this->y)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	int x, y;
+};
+
+int main()
+{
+	A a;
+	a.x = 10;
+	a.y = 10;
+	A b;//直接调用构造函数初始化
+	if (a==b)//等价于a.operator==(b)
+	{
+		cout << "true" << endl;
+	}
+
+	cin.get();
+	return 0;
+}
