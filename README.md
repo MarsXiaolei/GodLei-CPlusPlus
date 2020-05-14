@@ -1,3 +1,4 @@
+[点我获取Github readme 编写语法规则]https://blog.csdn.net/guodongxiaren/article/details/23690801
 ## CPlusPlus
 使用C++语言编写的代码
 
