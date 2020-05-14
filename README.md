@@ -1,4 +1,4 @@
-[点我获取Github readme 编写语法规则]https://blog.csdn.net/guodongxiaren/article/details/23690801
+[点我获取Github readme 编写语法规则]https://blog.csdn.net/guodongxiaren/article/details/23690801<br>
 `程序追求的最高境界是:高内聚（函数功能越单一越好，目标越专一越好），低耦合（类与其他类关系越少越好）`
 ## CPlusPlus 使用C++语言编写的代码<br>
 
@@ -14,8 +14,8 @@
 `(1)has-a 包含关系，人包含头、身体、手和脚。`<br>
 `(2)uses-a 组合关系，一个类部分地使用另一个类。通过类之间成员函数的相互联系，定义友员或对象参数传递实现。`<br>
 `(3)is-a 继承关系，具有传递性,不具有对称性`<br>
-`[其他关系]https://blog.csdn.net/qq_39551987/article/details/80730664`<br>
-`[其他关系]https://blog.csdn.net/chongji_liang/article/details/51819811`<br>
+[其他关系]https://blog.csdn.net/qq_39551987/article/details/80730664<br>
+[其他关系]https://blog.csdn.net/chongji_liang/article/details/51819811<br>
 
 ### 多态成立的条件是什么？<br>
 `（1）要有继承。`<br>
