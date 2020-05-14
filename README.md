@@ -21,8 +21,7 @@
 `(1)需要被外界访问的成员直接设置为public。`<br>
 `(2)只能在当前类中访问的成员设置为private。`<br>
 `(3)只能在当前类和子类中访问的成员设置为protected，protected成员的访问权限介于public和private之间。`<br>
-
-
+![](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E6%89%B9%E6%B3%A8%202020-05-14%20113253.png)
 
 ### 多态成立的条件是什么？<br>
 `（1）要有继承。`<br>
