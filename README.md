@@ -17,6 +17,12 @@
 [其他关系]https://blog.csdn.net/qq_39551987/article/details/80730664<br>
 [其他关系]https://blog.csdn.net/chongji_liang/article/details/51819811<br>
 
+### 如何正确使用访问标识符private、public、protected？
+`(1)需要被外界访问的成员直接设置为public。`<br>
+`(2)只能在当前类中访问的成员设置为private。`<br>
+`(3)只能在当前类和子类中访问的成员设置为protected，protected成员的访问权限介于public和private之间。`<br>
+
+
 
 ### 多态成立的条件是什么？<br>
 `（1）要有继承。`<br>
