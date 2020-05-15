@@ -6,6 +6,10 @@
 
 面向对象的三大特性：封装、继承、多态。<br>
 
+读书需要多思考，特别是翻译的技术类书籍，需要多Google查证一下。<br>
+
+[《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
+
 #### 参考资料<br>
 * 《华为C++代码规范》<br>
 * 《C++高级编程》<br>
@@ -153,6 +157,7 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 [参考资料]https://www.jianshu.com/p/497843e403b4
 
 #### 如何使用C++多线程？
+并发：两个或多个活动同时发生。
 
 #### 如何使用C++
 
