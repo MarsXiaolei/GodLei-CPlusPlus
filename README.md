@@ -1,4 +1,4 @@
-## C++程序设计<br>
+# C++程序设计<br>
 
 [点我获取Github readme 编写语法规则]https://blog.csdn.net/guodongxiaren/article/details/23690801<br>
 
@@ -124,10 +124,5 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 15、如何使用条件编译？<br>
 16、如何使用名称空间？<br>
 
-
-## 【1】多态
-![Image text](https://github.com/MarsXiaolei/image/blob/master/%E5%A4%9A%E6%80%811.png)
-![Image text](https://github.com/MarsXiaolei/image/blob/master/%E5%A4%9A%E6%80%812.png)
-![Image text](https://github.com/MarsXiaolei/image/blob/master/%E5%A4%9A%E6%80%813.png)
 
 
