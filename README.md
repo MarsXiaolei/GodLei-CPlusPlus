@@ -17,6 +17,8 @@
 * 《C++数据结构与算法》<br>
 * 《传智播客轻松搞定设计模式》<br>
 
+#### 设计模式
+https://www.cnblogs.com/ring1992/p/9592428.html<br>
 
 ### 进制转换<br>
 [二、八、十、十六进制转换（图解篇）](https://www.cnblogs.com/gaizai/p/4233780.html)<br>
