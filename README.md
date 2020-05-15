@@ -140,6 +140,7 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 `stack：以 LIFO（后进先出）的方式存储元素，让您能够在栈顶插入（压入）和删除（弹出）元素。`<br>
 `queue：以 FIFO（先进先出）的方式存储元素，让您能够删除最先插入的元素。`<br>
 `priority_queue：以特定顺序存储元素，因为优先级最高的元素总是位于队列开头。`<br>
+[参考资料]https://www.jianshu.com/p/497843e403b4
 
 ### 如何使用C++多线程？
 
