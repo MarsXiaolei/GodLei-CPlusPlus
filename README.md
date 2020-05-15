@@ -9,6 +9,12 @@
 
 ### C++编译过程是怎样的？<br>
 
+### 为什么要使用const常量取代宏？<br>
+`宏是简单的文本替换，在预处理阶段时完成，运行报错时直接报相应的值；跟踪调试时也是显示值，而不是宏名；宏没有类型检查，不安全；宏没有作用域。`<br>
+`示例：`<br>
+`#define MAX_MSISDN_LEN (20) //不好的例子`<br>
+`const int MAX_MSISDN_LEN = 20; //好的例子`<br>
+
 ### C++作用域是什么？<br>
 https://zh.cppreference.com/w/cpp/language/scope<br>
 
