@@ -10,7 +10,7 @@
 ### C++编译过程是怎样的？<br>
 
 ### C++作用域是什么？<br>
-[]https://zh.cppreference.com/w/cpp/language/scope<br>
+https://zh.cppreference.com/w/cpp/language/scope<br>
 
 1、结构体和类的区别？<br>
 2、两种单次编译方式的区别？<br>
