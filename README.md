@@ -8,6 +8,10 @@
 [二、八、十、十六进制转换（图解篇）](https://www.cnblogs.com/gaizai/p/4233780.html)<br>
 
 ### C++编译过程是怎样的？<br>
+
+### C++作用域是什么？<br>
+[]https://zh.cppreference.com/w/cpp/language/scope<br>
+
 1、结构体和类的区别？<br>
 2、两种单次编译方式的区别？<br>
 3、const和宏的区别。<br>
