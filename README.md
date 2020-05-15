@@ -29,6 +29,7 @@ https://www.cnblogs.com/ring1992/p/9592428.html<br>
 #### C++编译过程是怎样的？<br>
 
 #### 内存管理
+`在C++中，内存分成5个区，他们分别是堆、栈、自由存储区、全局/静态存储区和常量存储区。`<br>
 https://chenqx.github.io/2014/09/25/Cpp-Memory-Management/<br>
 
 #### 为什么要使用const常量取代宏？<br>
