@@ -8,6 +8,8 @@
 
 读书需要多思考，特别是翻译的技术类书籍，需要多Google查证一下。<br>
 
+读书从薄到厚，从厚到薄。<br>
+
 [《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
 
 #### 参考资料<br>
