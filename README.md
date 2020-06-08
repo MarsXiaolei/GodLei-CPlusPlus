@@ -10,6 +10,8 @@
 
 读书从薄到厚，从厚到薄。<br>
 
+人的时间有限，需要多花点时间思考，该往哪个方向努力才能使利益最大化。<br>
+
 [《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
 
 #### 参考资料<br>
