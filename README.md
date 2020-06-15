@@ -29,6 +29,8 @@
 
 #### 设计模式
 https://www.cnblogs.com/ring1992/p/9592428.html<br>
+`下面为英文版本`<br>
+https://github.com/JakubVojvoda/design-patterns-cpp<br>
 
 #### 代码容器
 ![](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E6%89%B9%E6%B3%A8%202020-05-15%20141530.png)<br>
