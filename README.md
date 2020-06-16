@@ -53,6 +53,15 @@ https://chenqx.github.io/2014/09/25/Cpp-Memory-Management/<br>
 #### C++作用域是什么？<br>
 https://zh.cppreference.com/w/cpp/language/scope<br>
 
+#### namespace命名空间使用<br>
+`1、用途：解决命名冲突。`<br>
+`2、命名空间下可以存放（变量、函数、结构体、类等）。`<br>
+`3、命名空间只能存放在全局作用域下。`<br>
+`4、命名空间可以嵌套命名空间。`<br>
+`5、命名空间是开放的，可以随时添加新成员。`<br>
+`6、命名空间可以是匿名的。`<br>
+`7、命名空间可以起别名。`<br>
+
 1、结构体和类的区别？<br>
 2、两种单次编译方式的区别？<br>
 3、const和宏的区别。<br>
