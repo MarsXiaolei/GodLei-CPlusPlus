@@ -2,15 +2,19 @@
 
 [点我获取Github readme 编写语法规则]https://blog.csdn.net/guodongxiaren/article/details/23690801<br>
 
-程序追求的最高境界是:高内聚（函数功能越单一越好，目标越专一越好），低耦合（类与其他类关系越少越好）<br>
+#### 前言
 
-面向对象的三大特性：封装、继承、多态。<br>
+`程序追求的最高境界是:高内聚（函数功能越单一越好，目标越专一越好），低耦合（类与其他类关系越少越好）`<br>
 
-读书需要多思考，特别是翻译的技术类书籍，需要多Google查证一下。<br>
+`面向对象的三大特性：封装、继承、多态`。<br>
 
-读书从薄到厚，从厚到薄。<br>
+`读书需要多思考，特别是翻译的技术类书籍，需要多Google查证一下。`<br>
 
-人的时间有限，需要多花点时间思考，该往哪个方向努力才能使利益最大化。<br>
+`读书从薄到厚，从厚到薄。`  <br>
+
+`人的时间有限，需要多花点时间思考，该往哪个方向努力才能使利益最大化。`<br>
+
+`无论什么时候都要保持清醒的头脑，明白自己想要什么，并为之奋斗。`<br>
 
 [《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
 
