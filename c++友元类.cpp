@@ -1,7 +1,7 @@
-//c++ÓÑÔªÀà
-//RectangleÊÇPointµÄÓÑÔªÀà
-//RectangleµÄËùÓĞ³ÉÔ±º¯ÊıÊÇPointµÄÓÑÔªº¯Êı
-//RectangleµÄ³ÉÔ±º¯Êı¿ÉÒÔ·ÃÎÊPointµÄË½ÓĞºÍ±£»¤³ÉÔ±
+//c++å‹å…ƒç±»
+//Rectangleæ˜¯Pointçš„å‹å…ƒç±»
+//Rectangleçš„æ‰€æœ‰æˆå‘˜å‡½æ•°æ˜¯Pointçš„å‹å…ƒå‡½æ•°
+//Rectangleçš„æˆå‘˜å‡½æ•°å¯ä»¥è®¿é—®Pointçš„ç§æœ‰å’Œä¿æŠ¤æˆå‘˜
 //xiaolei 2020/7/21
 
 #include <iostream>
