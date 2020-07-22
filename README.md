@@ -80,10 +80,10 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 `class A;`
 
 #### C++类与类之间关系<br>
+`依赖、关联、聚合、组合、继承、泛化`<br>
 []https://cloud.tencent.com/developer/article/1176331
 
 #### C++ 构造函数初始化顺序
-`依赖、关联、聚合、组合、继承、泛化`<br>
 [构造函数]https://blog.csdn.net/qq_30835655/article/details/66971183
 
 #### C++ this指针详解
