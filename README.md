@@ -83,10 +83,13 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 `依赖、关联、聚合、组合、继承、泛化`<br>
 []https://cloud.tencent.com/developer/article/1176331
 
-#### C++ 构造函数初始化顺序
+#### C++构造函数初始化顺序
 [构造函数]https://blog.csdn.net/qq_30835655/article/details/66971183
 
-#### C++ this指针详解
+#### C++中类的内存布局
+https://www.cnblogs.com/jiaochen/p/5524335.html
+
+#### C++this指针详解
 [this 指针]http://c.biancheng.net/cpp/biancheng/view/201.html
 
 #### 为什么需要重载运算符？<br>
