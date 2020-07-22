@@ -86,6 +86,9 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 [其他关系]https://blog.csdn.net/qq_39551987/article/details/80730664<br>
 [其他关系]https://blog.csdn.net/chongji_liang/article/details/51819811<br>
 
+#### C++ 构造函数初始化顺序
+[构造函数]https://blog.csdn.net/qq_30835655/article/details/66971183
+
 #### C++ this指针详解
 [this 指针]http://c.biancheng.net/cpp/biancheng/view/201.html
 
