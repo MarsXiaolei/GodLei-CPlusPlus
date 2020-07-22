@@ -79,14 +79,11 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 #### 什么时候使用类前置声明？<br>
 `class A;`
 
-#### 类与类之间关系？<br>
-`(1)has-a 组合关系，人包含头、身体、手和脚。`<br>
-`(2)is-a 继承关系，具有传递性,不具有对称性`<br>
-[其他关系]https://www.cnblogs.com/xiaojiang1025/p/6677978.html<br>
-[其他关系]https://blog.csdn.net/qq_39551987/article/details/80730664<br>
-[其他关系]https://blog.csdn.net/chongji_liang/article/details/51819811<br>
+#### C++类与类之间关系<br>
+[]https://cloud.tencent.com/developer/article/1176331
 
 #### C++ 构造函数初始化顺序
+`依赖、关联、聚合、组合、继承、泛化`<br>
 [构造函数]https://blog.csdn.net/qq_30835655/article/details/66971183
 
 #### C++ this指针详解
