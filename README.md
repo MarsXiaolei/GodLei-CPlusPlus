@@ -86,6 +86,9 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 #### C++构造函数初始化顺序
 [构造函数]https://blog.csdn.net/qq_30835655/article/details/66971183
 
+#### 拷贝构造函数和赋值运算符
+https://www.cnblogs.com/wangguchangqing/p/6141743.html
+
 #### C++中类的内存布局
 https://www.cnblogs.com/jiaochen/p/5524335.html
 
