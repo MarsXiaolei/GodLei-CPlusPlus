@@ -131,6 +131,10 @@ https://www.cnblogs.com/jiaochen/p/5524335.html
 `虚函数表和vptr指针`<br>
 https://blog.csdn.net/lihao21/article/details/50688337
 
+#### 虚析构函数<br>
+delete 基类指针时，会根据实际对象，调用相应的析构函数。
+https://www.cnblogs.com/chio/archive/2007/09/10/888260.html
+
 #### 什么是纯虚函数和抽象类？<br>
 `纯虚函数没有函数体，只有函数声明，在虚函数声明的结尾加上=0，表明此函数为纯虚函数，无法调用，也无法为其分配内存空间。语法格式：`<br>
 `virtual 返回值类型 函数名 (函数参数) = 0;`<br>
