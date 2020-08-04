@@ -1,8 +1,8 @@
-//±¾´úÂëÓÃÓÚËµÃ÷C++¼Ì³Ð¹ØÏµÖÐµÄÍ¬Ãûº¯Êýµ÷ÓÃÎÊÌâ
-//1¡¢´¿»ùÀà¶ÔÏóÖ»ÄÜµ÷ÓÃ»ùÀà×Ô¼ºµÄ³ÉÔ±º¯Êý£¨·ÇÐéº¯ÊýºÍÐéº¯Êý£©
-//2¡¢´¿ÅÉÉúÀà¶ÔÏó¿ÉÒÔµ÷ÓÃÅÉÉúÀà×Ô¼ºµÄ³ÉÔ±º¯Êý£¨·ÇÐéº¯ÊýºÍÐéº¯Êý£©
-//Ò²¿ÉÒÔµ÷ÓÃ»ùÀàµÄ³ÉÔ±º¯Êý£¨·ÇÐéº¯ÊýºÍÐéº¯Êý£©£¬²»¹ýµÃÓÃ×÷ÓÃÓòÔËËã·û::ÏÞ¶¨
-//3¡¢¸¸ÀàÖ¸ÕëÖ¸Ïò×ÓÀà¶ÔÏó£¬Í¨¹ýÐéº¯Êý±íµ÷ÓÃÅÉÉúÀàµÄÐéº¯Êý£¬µ÷ÓÃ»ùÀàµÄ·ÇÐéº¯Êý
+//æœ¬ä»£ç ç”¨äºŽè¯´æ˜ŽC++ç»§æ‰¿å…³ç³»ä¸­çš„åŒåå‡½æ•°è°ƒç”¨é—®é¢˜
+//1ã€çº¯åŸºç±»å¯¹è±¡åªèƒ½è°ƒç”¨åŸºç±»è‡ªå·±çš„æˆå‘˜å‡½æ•°ï¼ˆéžè™šå‡½æ•°å’Œè™šå‡½æ•°ï¼‰
+//2ã€çº¯æ´¾ç”Ÿç±»å¯¹è±¡å¯ä»¥è°ƒç”¨æ´¾ç”Ÿç±»è‡ªå·±çš„æˆå‘˜å‡½æ•°ï¼ˆéžè™šå‡½æ•°å’Œè™šå‡½æ•°ï¼‰
+//ä¹Ÿå¯ä»¥è°ƒç”¨åŸºç±»çš„æˆå‘˜å‡½æ•°ï¼ˆéžè™šå‡½æ•°å’Œè™šå‡½æ•°ï¼‰ï¼Œä¸è¿‡å¾—ç”¨ä½œç”¨åŸŸè¿ç®—ç¬¦::é™å®š
+//3ã€çˆ¶ç±»æŒ‡é’ˆæŒ‡å‘å­ç±»å¯¹è±¡ï¼Œé€šè¿‡è™šå‡½æ•°è¡¨è°ƒç”¨æ´¾ç”Ÿç±»çš„è™šå‡½æ•°ï¼Œè°ƒç”¨åŸºç±»çš„éžè™šå‡½æ•°
 #include <iostream>
 
 using namespace std;
@@ -12,12 +12,12 @@ class Base
 public:
 	virtual void setName()
 	{
-		cout << "µ÷ÓÃBase setName" << endl;
+		cout << "è°ƒç”¨Base setName" << endl;
 	}
 
 	void setValue()
 	{
-		cout << "µ÷ÓÃBase setValue" << endl;
+		cout << "è°ƒç”¨Base setValue" << endl;
 	}
 };
 
@@ -26,12 +26,12 @@ class Derived:public Base
 public:
 	virtual void setName()
 	{
-		cout << "µ÷ÓÃDerived setName" << endl;
+		cout << "è°ƒç”¨Derived setName" << endl;
 	}
 
 	void setValue()
 	{
-		cout << "µ÷ÓÃDerived setValue" << endl;
+		cout << "è°ƒç”¨Derived setValue" << endl;
 	}
 };
 
@@ -40,6 +40,7 @@ int main()
 	Base *base = new Base();
 	base->setName();
 	base->setValue();
+	delete base;
 	cout << endl;
 
 	Base base2;
@@ -50,6 +51,7 @@ int main()
 	Derived *derived = new Derived();
 	derived->setName();
 	derived->setValue();
+	delete derived;
 	cout << endl;
 
 	Derived derived2;
@@ -66,6 +68,7 @@ int main()
 	base3 = new Derived();
 	base3->setName();
 	base3->setValue();
+	delete base3;
 	cout << endl;
 
 	system("pause");
