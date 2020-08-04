@@ -79,6 +79,9 @@ https://zh.cppreference.com/w/cpp/language/scope<br>
 #### 什么时候使用类前置声明？<br>
 `class A;`
 
+#### C++类与对象<br>
+https://blog.csdn.net/xierhacker/article/details/74939880
+
 #### C++类与类之间关系<br>
 `依赖、关联、聚合、组合、继承、泛化`<br>
 []https://cloud.tencent.com/developer/article/1176331
