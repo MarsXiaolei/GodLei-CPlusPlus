@@ -179,6 +179,9 @@ https://www.cnblogs.com/chio/archive/2007/09/10/888260.html
 `priority_queue：以特定顺序存储元素，因为优先级最高的元素总是位于队列开头。`<br>
 [参考资料]https://www.jianshu.com/p/497843e403b4
 
+#### 迭代器失效问题？
+https://blog.csdn.net/lujiandong1/article/details/49872763
+
 #### 如何使用C++多线程？
 并发：两个或多个活动同时发生。
 
