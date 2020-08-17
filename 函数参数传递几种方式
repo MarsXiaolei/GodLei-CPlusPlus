@@ -1,0 +1,70 @@
+/*
+本代码用于说明函数参数传递几种方式
+1、按值传递：传递的是实参的副本（拷贝），在函数内修改，只是改变了副本的值，而实参的值不变。
+2、按指针传递：形参为指向实参地址的指针，当对形参的指向操作时，就相当于对实参本身进行的操作。
+3、按引用传递：形参相当于是实参的“别名”，对形参的操作其实就是对实参的操作。
+4、按const&传递：只能作为右值，也就是说不能在函数内被修改
+5、按const*传递：只能作为右值，也就是说不能在函数内被修改
+使用规则：
+1、如果修改形参，而不影响实参，使用按值传递
+2、如果修改形参，实参也修改，使用按指针和引用，优先引用，指针需要解引用
+3、如果不修改形参，只用形参做右值，则使用const&
+参考博文：
+https://www.cnblogs.com/yanlingyin/archive/2011/12/07/2278961.html
+*/
+
+#include <iostream>
+
+using namespace std;
+
+//按值
+void func(int a)
+{
+	a = 20;
+}
+
+//按指针
+void func2(int* value)
+{
+	*value = 18;
+}
+
+//按引用
+void func3(int& value)
+{
+	value = 38;
+}
+
+//按const&
+void func4(const int& value)
+{
+	int num = value;
+}
+
+//按const*
+void func5(const int* value)
+{
+	int num = *value;
+}
+
+int main()
+{
+	int a = 10;
+	func(a);
+	cout << "a:" <<a<< endl;
+	
+	int b = 20;
+	func3(b);
+	cout << "b:" << b << endl;
+
+	int *c = new int;
+	*c = 10;
+	func2(c);
+	cout << "*c:" << *c << endl;
+
+	const int d = 40;
+	func4(d);
+
+	system("pause");
+	return 0;
+}
