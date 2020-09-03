@@ -75,6 +75,8 @@ https://www.runoob.com/cplusplus/cpp-date-time.html<br>
 #### C++作用域是什么？<br>
 https://zh.cppreference.com/w/cpp/language/scope<br>
 
+[C和C++混合编程](https://www.cnblogs.com/yaozhongxiao/archive/2010/09/15/1826770.html)<br>
+
 #### namespace命名空间使用<br>
 `1、用途：解决命名冲突。`<br>
 `2、命名空间下可以存放（变量、函数、结构体、类等）。`<br>
