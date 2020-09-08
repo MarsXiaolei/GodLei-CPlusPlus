@@ -57,6 +57,11 @@ https://github.com/JakubVojvoda/design-patterns-cpp<br>
 #### 数据结构教程
 https://www.dotcpp.com/course/ds/
 
+#### STL标准模板库
+容器、迭代器、算法<br>
+* [C++ 容器及选用总结](https://www.cnblogs.com/answeryi/archive/2011/12/16/2289811.html)<br>
+* [C++ 容器简单介绍](https://www.cnblogs.com/linuxAndMcu/p/10254542.html)<br>
+
 #### 代码容器
 ![](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E6%89%B9%E6%B3%A8%202020-05-15%20141530.png)<br>
 
