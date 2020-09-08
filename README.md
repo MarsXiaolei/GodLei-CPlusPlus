@@ -57,6 +57,11 @@ https://github.com/JakubVojvoda/design-patterns-cpp<br>
 #### 数据结构教程
 https://www.dotcpp.com/course/ds/
 
+### 数据结构与算法
+* 快速排序
+  [快速排序](https://developer.51cto.com/art/201403/430986.htm)<br>
+  
+
 #### STL标准模板库
 容器、迭代器、算法<br>
 * [C++ 容器及选用总结](https://www.cnblogs.com/answeryi/archive/2011/12/16/2289811.html)<br>
