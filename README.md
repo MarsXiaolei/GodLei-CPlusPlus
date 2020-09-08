@@ -62,6 +62,8 @@ https://www.dotcpp.com/course/ds/
 * [C++ 容器及选用总结](https://www.cnblogs.com/answeryi/archive/2011/12/16/2289811.html)<br>
 * [C++ 容器简单介绍](https://www.cnblogs.com/linuxAndMcu/p/10254542.html)<br>
 
+[C++产生随机数](https://www.cnblogs.com/xiaokang01/p/9786751.html)<br>
+
 #### 代码容器
 ![](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E6%89%B9%E6%B3%A8%202020-05-15%20141530.png)<br>
 
