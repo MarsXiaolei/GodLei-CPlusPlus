@@ -1,0 +1,73 @@
+/*
+数据结构与算法：快速排序算法
+1、产生随机数
+2、设置基准数和哨兵i和j
+2020/09/08
+xiaolei
+*/
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+void qucik_sort(int a[], int low, int high) 
+{
+	int i, j, temp,t;
+	i = low;
+	j = high;
+	if (low < high) 
+	{
+		temp = a[low];    //设置基准数
+		while (i != j) 
+		{
+			//从右往左找
+			while (j > i&&a[j] >= temp) 
+			{
+				--j;
+			}
+
+			//从左往右找
+			while (i < j&&a[i] <= temp) 
+			{
+				++i;
+			}
+			
+			//i和j没有相遇就交换
+			if (i < j) 
+			{
+				t = a[i];
+				a[i] = a[j];
+				a[j] = t;
+			}
+		}
+		//相遇了就结束，与基准数交换
+		a[low] = a[i];
+		a[i] = temp;
+		//递归
+		qucik_sort(a, low, i - 1);
+		qucik_sort(a, i + 1, high);
+	}
+}
+
+int main() 
+{
+	const int MAX_SIZE = 35;
+	srand((int)time(0));
+	int a[MAX_SIZE];
+	for (int i=0;i< MAX_SIZE;i++)
+	{
+		a[i] = rand() % 100;
+		cout << a[i] << " ";
+	}
+	cout << endl;
+	
+	qucik_sort(a, 0, MAX_SIZE - 1);
+	for (int i = 0; i < MAX_SIZE; i++)
+	{
+		cout << a[i] << ' ';
+	}
+	cout << endl;
+	system("pause");
+	return 0;
+}
