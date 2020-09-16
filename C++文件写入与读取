@@ -1,7 +1,7 @@
 /*
 C++文件操作详解
 https://www.cnblogs.com/likebeta/archive/2012/06/16/2551662.html
-
+后期需要修改为配置文件模式
 */
 #include <iostream>
 #include <fstream>
