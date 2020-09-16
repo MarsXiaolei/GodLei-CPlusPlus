@@ -1,0 +1,40 @@
+/*
+C++文件操作详解
+https://www.cnblogs.com/likebeta/archive/2012/06/16/2551662.html
+
+*/
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+//#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+	string file_name = "1.txt";
+	ofstream outFile;
+	outFile.open(file_name,/*ios::app|*/ios::out|ios::trunc);
+	for (int i=0;i<20;i++)
+	{
+		outFile <<  i + 1 <<":hello world\n" ;
+	}
+	outFile.close();
+	ifstream inFile;
+	inFile.open(file_name);
+	string str;
+	vector<string> sysytemParam;
+	/*inFile >> str;
+	cout << str;*/
+	//char szbuff[1024] = {0};
+	while (getline(inFile, str))
+	{
+		cout << str<<endl;
+		sysytemParam.push_back(str);
+	}
+	cout << "sysytemParam.size():" << sysytemParam.size()<<endl;
+	inFile.close();
+	system("pause");
+	return 0;
+}
