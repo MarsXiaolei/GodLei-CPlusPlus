@@ -58,9 +58,12 @@ https://github.com/JakubVojvoda/design-patterns-cpp<br>
 https://www.dotcpp.com/course/ds/
 
 ### 数据结构与算法
+* 时间和空间复杂度<br>
+* 冒泡排序<br>
 * 快速排序<br>
   [快速排序](https://developer.51cto.com/art/201403/430986.htm)<br>
   [代码](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)<br>
+  
   
 
 #### STL标准模板库
