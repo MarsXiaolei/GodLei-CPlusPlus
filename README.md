@@ -78,6 +78,8 @@ https://www.dotcpp.com/course/ds/
 
 [C++产生随机数](https://www.cnblogs.com/xiaokang01/p/9786751.html)<br>
 
+[switch case里声明变量的问题](https://blog.csdn.net/caomiao2006/article/details/5843328)<br>
+
 #### 代码容器
 ![](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E6%89%B9%E6%B3%A8%202020-05-15%20141530.png)<br>
 
