@@ -8,3 +8,6 @@
 ```
 线程安全的单例模式<br>
 https://zhuanlan.zhihu.com/p/83539039
+
+C++多线程基础教程<br>
+https://www.cnblogs.com/zizbee/p/13520823.html
