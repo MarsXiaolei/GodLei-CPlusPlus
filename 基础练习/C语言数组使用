@@ -1,0 +1,92 @@
+/************************************************************
+ * C语言数组使用
+ ***********************************************************/
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_SIZE 30
+
+/** 数组作为函数参数，打印数组元素*/
+void printArray(int *array,int length);
+void printArray_2(int array[],int length);
+
+int main()
+{
+    /** 初始化值的数目和数组元素的数目不匹配*/
+//    int array[]={1,2,3,4};
+//    printArray(array,sizeof(array)/sizeof(array[0]));
+//    printArray_2(array,sizeof(array)/sizeof(array[0]));
+
+    /** 其余项全部为0*/
+//    int array[MAX_SIZE]={1};
+
+    /** 不初始化，为随机值*/
+//    int array[MAX_SIZE];
+
+    /** 数组中的所有元素初始化为0*/
+//    int array[MAX_SIZE]={0};
+
+    /** for循环初始化,效率较低*/
+//    int array[MAX_SIZE];
+//    for(int i=0;i<MAX_SIZE;++i)
+//    {
+//        array[i]=1;
+//    }
+
+    char array[]={'a','b','c'};
+
+
+    /** 快速初始化字符数组，但不是字符串常量*/
+//    char array[]="abc";
+//    printf("===%d\n",sizeof(array)/sizeof(array[0]));
+//    for(int i=0;i<(sizeof(array)/sizeof(array[0]));++i)
+//    {
+//        printf("array[%d]=%c\n",i,array[i]);
+//    }
+
+    printf("array===%s\n",array);
+
+//    char *str="abc";
+//    for(int i=0;i<sizeof(str);++i)
+//    {
+//        printf("array[%d]=%c\n",i,str[i]);
+//    }
+
+    /** 初始化字符数组时，推荐使用*/
+//    char array[MAX_SIZE];
+//    memset(array, 0, MAX_SIZE);
+
+    /** 数组名是指针常量，不可修改*/
+//    int a[MAX_SIZE];
+//    int *b;
+//    printf("a++===%d\n", a++);
+//    printf("b++===%d\n", b++);
+
+    return 0;
+}
+
+/**
+ * @brief 打印数组，需要知道数组的长度
+ * @param array
+ * @param length
+ */
+void printArray(int *array,int length)
+{
+    for(int i=0;i<length;++i)
+    {
+        printf("array[%d]=%d\n",i,array[i]);
+    }
+}
+
+/**
+ * @brief 打印数组，需要知道数组的长度
+ * @param array
+ * @param length
+ */
+void printArray_2(int array[],int length)
+{
+    for(int i=0;i<length;++i)
+    {
+        printf("array[%d]=%d\n",i,array[i]);
+    }
+}
