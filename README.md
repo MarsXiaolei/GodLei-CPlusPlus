@@ -17,6 +17,7 @@
 `无论什么时候都要保持清醒的头脑，明白自己想要什么，并为之奋斗。`<br>
 
 [《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
+[码农书籍网](https://www.manongbook.com/)
 
 #### 参考资料<br>
 * 《华为C++代码规范》<br>
