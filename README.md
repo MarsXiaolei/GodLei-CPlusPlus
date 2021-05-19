@@ -20,7 +20,7 @@
 [码农书籍网](https://www.manongbook.com/)
 
 ### 学习网站
-[C语言中文网](http://c.biancheng.net/cplus/)
+* [C语言中文网](http://c.biancheng.net/cplus/)
 
 
 #### 参考资料<br>
