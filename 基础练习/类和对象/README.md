@@ -6,7 +6,7 @@ C++类中成员变量的初始化有两种方式：构造函数初始化列表�
 
 `Phone.h`
 
-```
+```cpp
 #ifndef PHONE_H
 #define PHONE_H
 
