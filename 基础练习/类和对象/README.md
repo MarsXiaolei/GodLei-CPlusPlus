@@ -1,3 +1,17 @@
+### 访问类成员
+可以使用句点运算符`.`和指针运算符`->`访问类成员
+```cpp
+Human firstMan;
+firstMan.name = "Adam";
+firstMan.age = 30;
+```
+```cpp
+Human* firstWoman = new Human();
+firstWoman->dateOfBirth = "1970";
+firstWoman->IntroduceSelf();
+delete firstWoman;
+```
+
 ### 类成员变量初始化
 * C++类中成员变量的初始化有两种方式：构造函数初始化列表和构造函数体内赋值<br>
 * 注意：这两种方式不能同时出现，同名同参数属于函数重复定义<br>
