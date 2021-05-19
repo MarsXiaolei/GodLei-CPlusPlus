@@ -19,6 +19,10 @@
 [《C-Concurrency-in-Action-2nd-Edition》-C++并发编程英文版PDF](https://www.programmer-books.com/wp-content/uploads/2019/03/C-Concurrency-in-Action-2nd-Edition.pdf)<br>
 [码农书籍网](https://www.manongbook.com/)
 
+### 学习网站
+[C语言中文网](http://c.biancheng.net/cplus/)
+
+
 #### 参考资料<br>
 * 《华为C++代码规范》<br>
 * 《C++高级编程》<br>
