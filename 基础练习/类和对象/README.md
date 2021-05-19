@@ -42,7 +42,8 @@ private:
 ```
 
 `Phone.cpp`
-```
+
+```cpp
 /*
  * C++类中成员变量的初始化有两种方式：构造函数初始化列表和构造函数体内赋值
  * 注意：这两种方式不能同时出现，同名同参数属于函数重复定义
@@ -145,7 +146,8 @@ int Phone::getPrice()
 }
 ```
 `main.cpp`
-```
+
+```cpp
 #include <iostream>
 #include <string>
 #include "Phone.h"
