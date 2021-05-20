@@ -1,5 +1,13 @@
 `类只是一个模板（Template），编译后不占用内存空间，所以在定义类时不能对成员变量进行初始化，因为没有地方存储数据。`<br>
 `只有在创建对象以后才会给成员变量分配内存，这个时候就可以赋值了。`<br>
+### C++ 内存模型
+* [C++内存模型](https://www.cnblogs.com/yunlambert/p/9876491.html)
+* [图说C++对象模型：对象内存布局详解](https://www.cnblogs.com/QG-whz/p/4909359.html)
+
+### C++ 虚函数表
+* [虚函数表](https://www.cnblogs.com/yunlambert/p/9876564.html)
+* 
+
 ### 访问类成员
 可以使用句点运算符`.`和指针运算符`->`访问类成员
 ```cpp
