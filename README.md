@@ -56,6 +56,7 @@
 
 ### 基础知识
 * [C++程序编译过程](https://zhuanlan.zhihu.com/p/45402323)
+* [C++中explicit的作用及用法](https://blog.csdn.net/qq_36570733/article/details/100585625)
 
 #### 绘图
 * `流程图`<br>
@@ -76,7 +77,6 @@ https://www.dotcpp.com/course/ds/
 * 快速排序<br>
   [快速排序](https://developer.51cto.com/art/201403/430986.htm)<br>
   [代码](https://github.com/MarsXiaolei/CPlusPlus/blob/master/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)<br>
-  
   
 
 #### STL标准模板库
