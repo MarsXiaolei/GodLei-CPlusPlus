@@ -40,6 +40,19 @@
 * [C++中类的内存布局](https://www.cnblogs.com/jiaochen/p/5524335.html)
 * [C++this指针详解](http://c.biancheng.net/cpp/biancheng/view/201.html)
 
+## C++问答
+|序号|问题|网络链接|
+|:---:|:---:|:------:|
+|:one:|c++ - 为什么要内联类成员函数？|https://www.coder.work/article/33510|
+|:two:|---|---|
+|:three:|---|---|
+|:four:|---|---|
+|:five:|---|---|
+|:six:|---|---|
+|:seven:|---|---|
+|:eight:|---|---|
+|:nine:|---|---|
+
 
 #### 多态成立的条件是什么？<br>
 `（1）要有继承。`<br>
